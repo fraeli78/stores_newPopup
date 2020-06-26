@@ -168,7 +168,7 @@ var franchiseStores = L.geoJSON(null, {
   onEachFeature: function (feature, layer) {
     if (feature.properties) {
     
-       console.log(feature.properties);
+       //console.log(feature.properties);
        
       var content = "<div class='container' style='width:100%'><div class='row'>"
       +"<div class='col-x-12 col-md-6'>"
